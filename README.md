@@ -4,4 +4,4 @@
 * [Causal Reasoning from Meta-Reinforcement Learning](https://openreview.net/forum?id=H1ltQ3R9KQ), Under Review, *ICLR*, 2019.
 * [Discovering Latent Causes in Reinforcement Learning](https://www.princeton.edu/~nivlab/papers/GershmanNormanNiv2015.pdf), Gershman et al., *Behavioral Sciences*, 2015.
 * [Reinforcement Learning and Cauasl Models](http://gershmanlab.webfactional.com/pubs/RL_causal.pdf), Sam Gershman, 2016.
-* [Representation Balancing MDPs for Off-Policy Policy Evaluation](https://arxiv.org/pdf/1805.09044.pdf), Liu et. al., *NIPS*, 2018.
+* [Representation Balancing MDPs for Off-Policy Policy Evaluation](https://arxiv.org/pdf/1805.09044.pdf), Liu et. al., *NeurIPS*, 2018.
