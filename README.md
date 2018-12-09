@@ -7,3 +7,8 @@
 * [Representation Balancing MDPs for Off-Policy Policy Evaluation](https://arxiv.org/pdf/1805.09044.pdf), Liu et. al., *NeurIPS*, 2018.
 * [Learning Plannable Representation with Causal InfoGAN](https://arxiv.org/pdf/1807.09341.pdf), Kurutach et al., *PAL*, 2018.
 * [High-Confidence Policy Improvement](https://people.cs.umass.edu/~pthomas/papers/Thomas2015b.pdf), Thomas et al., *ICML*, 2015.
+
+## Relevant RL Papers
+
+* [Learning Model Based Planning from Scratch](https://arxiv.org/pdf/1707.06170.pdf), Pascanu et al., *arxiv*, 2017.
+* [An Introduction to Deep Reinforcement Learning](https://arxiv.org/pdf/1811.12560.pdf), Francois-Lavet et al., *arxiv*, 2018.
