@@ -12,3 +12,5 @@
 
 * [Learning Model Based Planning from Scratch](https://arxiv.org/pdf/1707.06170.pdf), Pascanu et al., *arxiv*, 2017.
 * [An Introduction to Deep Reinforcement Learning](https://arxiv.org/pdf/1811.12560.pdf), Francois-Lavet et al., *arxiv*, 2018.
+* [Combined Reinforcement Learning via Abstract Representations](https://arxiv.org/abs/1809.04506), Francois-Lavet et al., *arxiv*, 2018.
+* [TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep Reinforcement Learning](https://arxiv.org/abs/1710.11417), Farquhar et al., *arxiv*, 2018.
