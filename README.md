@@ -1,3 +1,5 @@
+I aim to review and understand how causal inference can be helpful in making reinforcement learning better. I think causality can make RL more sample efficient, make it interpretable and broaden its range of applications.
+
 # Papers at the Intersection of Reinforcement Learning and Causal Inference
 
 * [Woulda, Coulda, Shoulda: Counterfactually-Guided Policy Search](https://openreview.net/forum?id=BJG0voC9YQ), Under Review, *ICLR*, 2019.
@@ -14,3 +16,7 @@
 * [An Introduction to Deep Reinforcement Learning](https://arxiv.org/pdf/1811.12560.pdf), Francois-Lavet et al., *arxiv*, 2018.
 * [Combined Reinforcement Learning via Abstract Representations](https://arxiv.org/abs/1809.04506), Francois-Lavet et al., *arxiv*, 2018.
 * [TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep Reinforcement Learning](https://arxiv.org/abs/1710.11417), Farquhar et al., *arxiv*, 2018.
+
+## Papers on Hierarchical RL
+
+* [Data-Efficient Hierarchical Reinforcement Learning](https://papers.nips.cc/paper/7591-data-efficient-hierarchical-reinforcement-learning.pdf), Nachum et al., *NeurIPS*, 2018.
