@@ -17,6 +17,5 @@ I aim to review and understand how causal inference can be helpful in making rei
 * [Combined Reinforcement Learning via Abstract Representations](https://arxiv.org/abs/1809.04506), Francois-Lavet et al., *arxiv*, 2018.
 * [TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep Reinforcement Learning](https://arxiv.org/abs/1710.11417), Farquhar et al., *arxiv*, 2018.
 
-## Papers on Hierarchical RL
 
 * [Data-Efficient Hierarchical Reinforcement Learning](https://papers.nips.cc/paper/7591-data-efficient-hierarchical-reinforcement-learning.pdf), Nachum et al., *NeurIPS*, 2018.
