@@ -11,5 +11,10 @@
    * The manager works at a lower temporal abstraction setting than the worker, and can probably avoid problems of sparse rewards.
 
 3. [The Option Critic Architecture](https://arxiv.org/pdf/1609.05140.pdf), Bacon et al., *AAAI*, 2017. 
+    * This paper proves two policy gradient theorems in the context of the options framework. The policy over options have two parameters, $\theta$ (intra-option policy parameters i.e. specifies the probability of taking an action at a state in the context of a policy) and $\nu$ (termination parameter i.e. specifies the probability of termination at a state given a policy).
+    * These two theorems immediately lead to an actor-critic like algorithm, where the critic updates the Q values for a given state, option pair and the actor updates the parameters for intra-option policy and termination policy.
+    * The architecture needs to specify the number of options but not the associated subgoals. Experiments suggest that the architecture is able to learn meaningful options (which complete interpretable subgoals) for several standard benchmarks.
 
 4. [Learning Multi-Level Hierarchies with Hindsight](https://openreview.net/pdf?id=ryzECoAcY7), Levy et al., *ICLR*, 2019.
+    * Existing algorithms do not efficiently learn multiple levels within a hierarchy in parallel.
+    *
