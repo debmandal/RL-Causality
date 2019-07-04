@@ -17,3 +17,5 @@ I aim to review and understand how causal inference can be helpful in making rei
 * [Combined Reinforcement Learning via Abstract Representations](https://arxiv.org/abs/1809.04506), Francois-Lavet et al., *arxiv*, 2018.
 * [TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep Reinforcement Learning](https://arxiv.org/abs/1710.11417), Farquhar et al., *arxiv*, 2018.
 * [Hindsight Experience Replay](https://papers.nips.cc/paper/7090-hindsight-experience-replay.pdf),  Andrychowicz et al., *NIPS*, 2017. 
+* [Universal Value Function Approximator](http://proceedings.mlr.press/v37/schaul15.pdf), Schaul et al., *ICML*, 2015.
+* [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf), Lillicrap et al., *ICLR*, 2016.
