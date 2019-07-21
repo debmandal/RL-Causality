@@ -29,4 +29,16 @@
 
 7. [Finding Options that Minimize Planning Time](https://arxiv.org/pdf/1810.07311.pdf), Jinnai et al., *arXiv*, 2019.
     * This paper considers the problem of finding the smallest set of options so that planning converges in less than a maximum number of iterations of the planning algorithm.
+
+8. [When Waiting is not an Option: Learning Options with a Deliberation Cost](https://arxiv.org/pdf/1709.04571.pdf), Harb et al., *arXiv*, 2017.
+    * One of the main challenges in the options framework is to learn a good set of options. This paper proposes to define a good set of options as the ones that allow an agent to learn and plan faster.
+    * Intuitively, the cost of continuing the execution of an option is less than the cost of switching to a different option. This is introduced in learning by introducing the concept of *deliberation cost* which defines the cost of switching to a different option.
+    * The learning problem is maximize discounted sum of rewards subject to a bounded deliberation cost. The constrained optimization is difficult to solve in general. So the authors propose to optimize a lagrangian formulation where a regularization parameter \eta controls the importance given to the deliberation cost. 
+    * The parameter \eta can also be interpreted as a margin parameter as it adds directly to the advantage function. Therefore, a higher value of \eta enforces changing policies only if the advantage of doing so is high.
+    * The main motivation of the paper was to incorporate the framework of bounded rationality with the help of deliberation cost. However, the current formulation seems insufficient and needs to include other types of deliberation costs to truly reflect the notion of bounded rationality.
+    
+9. [Learning with Options that Terminate Off-Policy](https://arxiv.org/pdf/1711.03817.pdf), Harutyunyan et al., *AAAI*, 2018.
+
+10. [Discovering Options for Exploration by Minimizing Cover Time](https://arxiv.org/pdf/1903.00606.pdf), Jinnai et al., *arXiv*, 2019.
+    * This paper studies how to accelerate exploration in an environment with sparse reward.
     *
