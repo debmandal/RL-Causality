@@ -11,10 +11,22 @@
    * The manager works at a lower temporal abstraction setting than the worker, and can probably avoid problems of sparse rewards.
 
 3. [The Option Critic Architecture](https://arxiv.org/pdf/1609.05140.pdf), Bacon et al., *AAAI*, 2017. 
-    * This paper proves two policy gradient theorems in the context of the options framework. The policy over options have two parameters, $\theta$ (intra-option policy parameters i.e. specifies the probability of taking an action at a state in the context of a policy) and $\nu$ (termination parameter i.e. specifies the probability of termination at a state given a policy).
+    * This paper proves two policy gradient theorems in the context of the options framework. The policy over options have two parameters, (a) intra-option policy parameters i.e. specifies the probability of taking an action at a state in the context of a policy, and (b) termination parameter i.e. specifies the probability of termination at a state given a policy.
     * These two theorems immediately lead to an actor-critic like algorithm, where the critic updates the Q values for a given state, option pair and the actor updates the parameters for intra-option policy and termination policy.
     * The architecture needs to specify the number of options but not the associated subgoals. Experiments suggest that the architecture is able to learn meaningful options (which complete interpretable subgoals) for several standard benchmarks.
 
 4. [Learning Multi-Level Hierarchies with Hindsight](https://openreview.net/pdf?id=ryzECoAcY7), Levy et al., *ICLR*, 2019.
     * Existing algorithms do not efficiently learn multiple levels within a hierarchy in parallel.
+    
+5. [Learning Abstract Options](https://papers.nips.cc/paper/8243-learning-abstract-options.pdf), Riemer et al., *NeurIPS*, 2018.
+    * Presents general policy gradient theorems that can be applied to a hierarchy of options.
+    * Given a state, the top level first chooses an option, say o_1. Then an option from the next level say o_2 is chosen according to the intra-option policy for o_1. This continues for N levels until a primitive action a is taken by the Nth level. The termination functions are invoked in a bottom-up fashion. An option at level k can terminate only if all the options at levels higher than k+1 have terminated. This enables the higher level options to be more temporally extended compared to
+        the lower level options.
+    * The gain from considering hierarchical options framework is not very impressive. I would have loved to see settings where rewards are really sparse.
+6. [Learning Options end-to-end for Continuous Action Tasks](https://arxiv.org/pdf/1712.00004.pdf), Klissarov et al., *arXiv*, 2017.
+    * Combines the option-critic architecture with the Proximal Policy Optimization (PPO) for environments with continuous actions.
+    * Works well for environments that demonstrate compositionality.
+
+7. [Finding Options that Minimize Planning Time](https://arxiv.org/pdf/1810.07311.pdf), Jinnai et al., *arXiv*, 2019.
+    * This paper considers the problem of finding the smallest set of options so that planning converges in less than a maximum number of iterations of the planning algorithm.
     *
