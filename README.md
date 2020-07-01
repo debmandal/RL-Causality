@@ -29,4 +29,5 @@ I aim to review and understand how causal inference can be helpful in making rei
 
 * [CSC 2547 Fall 2019: Learning to Search](https://duvenaud.github.io/learning-to-search/), course taught by David Duvenaud, 2019
 * [Causal Learning for Decision Making (CLDM)](https://causalrlworkshop.github.io/papers.html), papers from ICLR workshop, 2020
-* [Causal AI Lab Tutorials](https://causalai.net/#tutorials), by Elias Bareinboim [video](https://www.youtube.com/watch?v=W20GWMzME5w)
+* [Causal AI Lab Tutorials](https://causalai.net/#tutorials), by Elias Bareinboim ([video](https://www.youtube.com/watch?v=W20GWMzME5w))
+* [Deep Reinforcement Learning](https://www.cs.cmu.edu/~katef/DeepRLFall2018/), course taught by Katerina Fragkiadaki & Tom Mitchell, 2018
