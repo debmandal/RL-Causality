@@ -27,6 +27,7 @@ I aim to review and understand how causal inference can be helpful in making rei
 
 ## Relevant Resources/Tutorials
 
+* [Building Machines That Learn and Think Like People](https://arxiv.org/pdf/1604.00289.pdf), Lake et al., 2016
 * [CSC 2547 Fall 2019: Learning to Search](https://duvenaud.github.io/learning-to-search/), course taught by David Duvenaud, 2019
 * [Causal Learning for Decision Making (CLDM)](https://causalrlworkshop.github.io/papers.html), papers from ICLR workshop, 2020
 * [Causal AI Lab Tutorials](https://causalai.net/#tutorials), by Elias Bareinboim ([video](https://www.youtube.com/watch?v=W20GWMzME5w))
