@@ -13,6 +13,7 @@ I aim to review and understand how causal inference can be helpful in making rei
 * [Representation Balancing MDPs for Off-Policy Policy Evaluation](https://arxiv.org/pdf/1805.09044.pdf), Liu et. al., *NeurIPS*, 2018.
 * [Learning Plannable Representation with Causal InfoGAN](https://arxiv.org/pdf/1807.09341.pdf), Kurutach et al., *PAL*, 2018.
 * [High-Confidence Policy Improvement](https://people.cs.umass.edu/~pthomas/papers/Thomas2015b.pdf), Thomas et al., *ICML*, 2015.
+* [Building Machines that Think and Learn Like People](https://arxiv.org/pdf/1604.00289.pdf), Lake et al., *Behavioural and Brain Sciences, 2016.
 
 ## Relevant RL Papers
 
