@@ -2,6 +2,7 @@ I aim to review and understand how causal inference can be helpful in making rei
 
 # Papers at the Intersection of Reinforcement Learning and Causal Inference
 
+* [Counterfactually Guided Policy Transfer in Clinical Settings](https://arxiv.org/pdf/2006.11654.pdf), Killian, 2020
 * [Towards Intervention-Centric Causal Reasoning in Learning Agents](https://arxiv.org/pdf/2005.12968.pdf), Lansdell, *ICLR*, 2020
 * [Woulda, Coulda, Shoulda: Counterfactually-Guided Policy Search](https://openreview.net/forum?id=BJG0voC9YQ), Under Review, *ICLR*, 2019.
 * [Causal Reasoning from Meta-Reinforcement Learning](https://openreview.net/forum?id=H1ltQ3R9KQ), Under Review, *ICLR*, 2019.
